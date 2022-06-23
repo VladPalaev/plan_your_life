@@ -27,7 +27,7 @@ a {
 }
 
 .btn {
-	padding: 13px 15px;
+	padding: 13px 21px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -85,7 +85,7 @@ body {
 }
 
 .logo {
-	margin-right: 70px;
+	margin-right: 76px;
 }
 
 .logo__circle {
@@ -125,11 +125,11 @@ body {
 .social {
 	display: flex;
 	align-items: center;
-	margin-right: 44px;
+	margin-right: 45px;
 }
 
 .social__link {
-	margin-right: 20px;
+	margin-right: 34px;
 	line-height: 1;
 }
 
@@ -152,7 +152,7 @@ body {
 /* /INTRO start */
 .intro {
 	padding-top: 90px;
-	height: 570px;
+	height: 574px;
 	display: flex;
 	justify-content: center;
 	background-size: cover;
@@ -172,13 +172,17 @@ body {
 	color: var(--clr-title);
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	line-height: 1.2em;
 }
 
 .intro__title {
-	margin-bottom: 28px;
+	margin-bottom: 25px;
 	font-family: 'Quicksand';
 	font-weight: 300;
 	font-size: 48px;
+	line-height: 1.25em;
+	color: #3D4F9F;
+
 }
 
 .intro__title span {
@@ -187,8 +191,7 @@ body {
 }
 
 .intro__text {
-	display: inline-block;
-	margin-bottom: 20px;
+	margin:  0 auto 18px;
 	max-width: 480px;
 	font-family: 'Roboto';
 	color: var(--clr-text);
@@ -213,4 +216,42 @@ body {
 .intro__play:hover {
 	box-shadow: 0px 10px 50px rgba(170, 189, 195, 0.9);
 }
+
+.intro__play .icon {
+	height: 11px;
+}
+
 /* /INTRO end */
+
+/* /PARTNERS start */
+.partners {
+	height: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.partners__wrapper {
+}
+
+.partners__img {
+	height: 30px;
+	width: 117px;
+	margin-right: 72px;
+	fill: #D6DAE5;
+	transition: 0.5s ease;
+}
+
+.partners__img:last-child {
+	margin-right: 0;
+}
+
+.partners__img:hover {
+	fill: #5982E7;
+}
+
+.parthers__img:last-child {
+	margin-right: 0;
+}
+
+/* /PARTNERS end */
